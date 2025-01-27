@@ -19,7 +19,6 @@ app.get("/", getAdminData);
 
 app.get("/users", allUsers);
 app.get("/chats", allChats);
-app.get("/", getAdminData);
 app.get("/messages", allMessages);
 app.get("/stats", getDashboardStats);
 
